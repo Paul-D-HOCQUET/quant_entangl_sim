@@ -12,7 +12,7 @@ This project is associated with a dissertation, redacted in French and available
 
 ## Installation
 
-Download the archive of the repository, extract it somewhere rememberable on your device and open in the IDE of your choice.
+Download the archive of the repository, extract it somewhere rememberable on your device and open it in the IDE of your choice.
 
 ## Usage
 To start the simulator, excecute `Sim_Draw.py`.<br />
