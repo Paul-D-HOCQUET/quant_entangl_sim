@@ -1,0 +1,59 @@
+#
+#	Algorithme de Grover
+#
+#	3 qubits - plus 1 qubit extra
+#   2 iterations
+#   Nombre de qbits : 0, 1, 2 ..., N-1
+#   Initialisation des qubits
+N 4 0 0 0 1
+A 3
+# 	Initialisation - Tour de Hadamard
+HT all
+#
+#	Oracle 
+#
+X 1
+C 0 1 2 X 3
+X 1
+#
+#	Diffuseur
+#
+H 0
+H 1
+H 2
+X 0
+X 1
+X 2
+H 2
+C 0 1 X 2
+H 2
+X 0
+X 1
+X 2
+H 0
+H 1
+H 2
+#
+#	Oracle 
+#
+X 1
+C 0 1 2 X 3
+X 1
+#
+#	Diffuseur
+#
+H 0
+H 1
+H 2
+X 0
+X 1
+X 2
+H 2
+C 0 1 X 2
+H 2
+X 0
+X 1
+X 2
+H 0
+H 1
+H 2

@@ -1,0 +1,6 @@
+N 4 0 0 0 0
+RTY 1   "math.pi / 4"
+H 3
+CX 3 2
+CX 2 1
+CX 1 0
