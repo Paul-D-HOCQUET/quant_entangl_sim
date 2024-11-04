@@ -4,7 +4,7 @@ This simulator is the result of a master's degree project.
 
 ## Another quantum circuit simulator ?
 
-While learning quantum computing, I tinkered a lot with big compagnies' quantum simulators. They were all fancy and ergonomic but none of them actually introduced any data about entanglement. Yet, entanglement in fundamental to quantum computing that I was confused to have no information about it in existing simulator.
+While learning quantum computing, I tinkered a lot with big compagnies' quantum simulators. They were all fancy and ergonomic but none of them actually introduced any data about entanglement. Yet, entanglement is fundamental to quantum computing that I was confused to have no information about it in existing simulators.
 This simulator trades the Measurment gate for a gate-by-gate entanglement measure based on the Von Neumann entropy.
 
 ## Dissertation
