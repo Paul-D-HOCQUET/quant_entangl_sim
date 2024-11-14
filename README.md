@@ -15,7 +15,7 @@ This project is associated with a dissertation, redacted in French and available
 Download the archive of the repository, extract it somewhere rememberable on your device and open it in the IDE of your choice.
 
 ## Usage
-To start the simulator, excecute `Sim_Draw.py`.<br />
+To start the simulator, excecute `P_Draw_Schmidt.py`.<br />
 To edit the simulated circuit, modify the file path in `P_Simulation.py` to the `.txt` file of the circuit you want to simulate.<br />
 The text file must respect a designated syntax :
 ### Initialization line
